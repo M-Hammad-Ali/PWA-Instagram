@@ -1,0 +1,52 @@
+{
+    "name":"Instagram as PWA",
+    "short_name":"PWA",
+    "icons":[
+        {
+            "src":"./src/images/icons/app-icon-48x48.png",
+            "type":"Image/png",
+            "sizes":"48x48"
+        },
+        {
+            "src":"./src/images/icons/app-icon-96x96.png",
+            "type":"Image/png",
+            "sizes":"96x96"
+        },
+        {
+            "src":"./src/images/icons/app-icon-144x144.png",
+            "type":"Image/png",
+            "sizes":"144x144",
+            "purpose":"any"
+        },
+        {
+            "src":"./src/images/icons/app-icon-192x192.png",
+            "type":"Image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"./src/images/icons/app-icon-256x256.png",
+            "type":"Image/png",
+            "sizes":"256x256"
+        },
+        {
+            "src":"./src/images/icons/app-icon-384x384.png",
+            "type":"Image/png",
+            "sizes":"384x384"
+        },
+        {
+            "src":"./src/images/icons/app-icon-512x512.png",
+            "type":"Image/png",
+            "sizes":"512x512"
+        }
+
+    ],
+    "start_url":"./index.html",
+    "scope":".",
+    "display":"standalone",
+    "orientation":"portrait-primary",
+    "background_color":"#fff",
+    "theme_color":"#3f51bf",
+    "description":"A simple instagram clone using pwa",
+    "dir":"ltr",
+    "lang":"en-US"
+}
